@@ -6,7 +6,7 @@
 /*   By: daneto <daneto@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/20 12:58:58 by daneto            #+#    #+#             */
-/*   Updated: 2025/04/20 12:58:59 by daneto           ###   ########.fr       */
+/*   Updated: 2025/05/01 11:37:29 by daneto           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,8 +35,8 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
-
-/* int main(int argc, char **argv)
+/* 
+int main(int argc, char **argv)
 {
     if (argc == 4)
     {

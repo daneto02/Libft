@@ -6,7 +6,7 @@
 /*   By: daneto <daneto@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/25 18:36:16 by daneto            #+#    #+#             */
-/*   Updated: 2025/04/25 18:47:35 by daneto           ###   ########.fr       */
+/*   Updated: 2025/04/26 12:30:53 by daneto           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,25 +17,25 @@
 	write(fd, &c, 1);
 } */
 
-void ft_putnbr_fd(int n, int fd)
+void	ft_putnbr_fd(int n, int fd)
 {
-    long num;
+	long	num;
 
-    num = (long)n;
-    if(fd < 0)
-        return;
-    if(num < 0)
-    {
-        write(fd, "-", 1);
-        num = -num;
-    }
-    if(num >= 10)
-    {
-        ft_putnbr_fd(num / 10, fd);
-        ft_putnbr_fd(num % 10, fd);
-    }
-    else
-        ft_putchar_fd(num + '0', fd);
+	num = (long)n;
+	if (fd < 0)
+		return ;
+	if (num < 0)
+	{
+		write(fd, "-", 1);
+		num = -num;
+	}
+	if (num >= 10)
+	{
+		ft_putnbr_fd(num / 10, fd);
+		ft_putnbr_fd(num % 10, fd);
+	}
+	else
+		ft_putchar_fd(num + '0', fd);
 }
 /* int main()
 {

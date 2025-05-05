@@ -6,7 +6,7 @@
 /*   By: daneto <daneto@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/21 12:06:38 by daneto            #+#    #+#             */
-/*   Updated: 2025/04/22 13:45:45 by daneto           ###   ########.fr       */
+/*   Updated: 2025/05/01 11:19:03 by daneto           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,3 +38,11 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	str[i + j] = '\0';
 	return (str);
 }
+/* 
+int main()
+{
+	char *s1 = "Hello";
+	char *s2 = "World";
+
+	printf("%s\n", ft_strjoin(s1, s2));
+} */

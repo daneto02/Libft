@@ -6,7 +6,7 @@
 /*   By: daneto <daneto@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/20 12:55:50 by daneto            #+#    #+#             */
-/*   Updated: 2025/04/20 12:55:52 by daneto           ###   ########.fr       */
+/*   Updated: 2025/05/01 11:19:10 by daneto           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,8 +29,8 @@ char	*ft_strdup(const char *s)
 	dest[i] = '\0';
 	return (dest);
 }
-
-/* int main()
+/* 
+int main()
 {
 	char *dest = "Hello";
 	char *src = "World";

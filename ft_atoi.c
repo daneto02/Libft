@@ -6,7 +6,7 @@
 /*   By: daneto <daneto@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/20 12:52:51 by daneto            #+#    #+#             */
-/*   Updated: 2025/04/20 12:53:08 by daneto           ###   ########.fr       */
+/*   Updated: 2025/05/01 09:33:41 by daneto           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,16 +36,6 @@ int	ft_atoi(const char *str)
 	}
 	return (result * sign);
 }
-
-/* int main(int argc, char **argv)
-{
-	if (argc == 2)
-	{
-		printf("ft_atoi: %d\n", ft_atoi(argv[1]));
-		printf("atoi: %d\n", atoi(argv[1]));
-	}
-	return (0);
-} */
 
 /* int main()
 {

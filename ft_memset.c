@@ -6,7 +6,7 @@
 /*   By: daneto <daneto@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/14 11:49:51 by daneto            #+#    #+#             */
-/*   Updated: 2025/04/14 16:24:40 by daneto           ###   ########.fr       */
+/*   Updated: 2025/04/26 13:00:30 by daneto           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,3 @@ int main()
 	ft_memset(str, '@', 4);
 	printf("Result: %s\n", str);
 } */
-//str, c, n, 
-//str = pointer to the block of memory to fill
-//c = what is used to fill the block of memory
-//n = number of bytes to set to the value

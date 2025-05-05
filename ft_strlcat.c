@@ -6,11 +6,10 @@
 /*   By: daneto <daneto@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/15 11:33:53 by daneto            #+#    #+#             */
-/*   Updated: 2025/04/22 14:56:28 by daneto           ###   ########.fr       */
+/*   Updated: 2025/05/01 10:59:35 by daneto           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <string.h>
 #include "libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
@@ -41,16 +40,9 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 int main()
 {
 	char dest[50];
-	size_t ret;
 	
 	printf("Test 1, Normal\n");
 	strcpy(dest, "42 ");
-	ret = ft_strlcat(NULL, "Lisboa", 0);
-	printf("Return: %zu | Dest: %s\n", ret, dest);
-
-	printf("Test 2: Dest is empty / small\n");
-    char dest_empty[5] = "";
-    ret = ft_strlcat(NULL, "42 Lisboa", sizeof(dest_empty));
-    printf("Returned: %zu | Dest: %s\n", ret, dest_empty);
-
+	ft_strlcat(dest, "Lisboa", 7);
+	printf("%s\n", dest);
 } */

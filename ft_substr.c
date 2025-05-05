@@ -6,7 +6,7 @@
 /*   By: daneto <daneto@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/21 11:30:17 by daneto            #+#    #+#             */
-/*   Updated: 2025/04/21 14:53:34 by daneto           ###   ########.fr       */
+/*   Updated: 2025/05/01 12:41:30 by daneto           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,9 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 /* 
 int main()
 {
-	printf("%s\n", ft_substr("Hello, World!", '\0', 8));
-	free(ft_substr);
+	char *str;
+
+	str = ft_substr("Hello World!", 3, 8);
+	printf("%s\n", str);
+	free(str);
 } */
